@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            font-family: '돋음';
+            font-size: 14px;
+            color: #444444;
+        }
+        #video-background {
+      position: fixed;
+      width: 1600px;
+      height: auto;
+      z-index: -1;
+    }
+    
+        li{
+            list-style-type: none;
+        }
+
+
+        .clear{
+            clear: both;
+        }
+        header{
+            width: 100%;
+            height: 90px;
+            margin: 0 0 0 0px;
+            border-bottom: solid 1px #ccccccd9;
+           
+            
+          
+        }
+        #logo{
+            float: left;
+            margin: 20px 0 0 25px;
+           
+
+        }
+        #menus{
+            float: left;
+            margin-left: 550px;
+          
+        }
+        #top_menu{
+            text-align: right;
+            margin-top: 20px;
+            
+        }
+        #main_menu{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-family: "맑은고딕";
+            font-weight: 500;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+        
+        }
+
+        #main_menu li{
+            display: inline;
+            margin-left: 35px;
+        }
+       
+        #contents{
+            width: 1140px;
+            height: 400px;
+            margin: 200px 0 0 0;
+        }
+        #sub_menu{
+            width: 234px;
+            float: left;
+          
+            margin-top: 25px;
+        } 
+        #sub_menu li{
+            padding: 10px;
+          border-bottom: dotted 1px #cccccc;
+        }
+
+
+        #sub_menu h3{
+            font-size: 18px;
+            color: #ffffff;
+            padding: 12px;
+            background-color: #ffffff;
+           
+        }
+        #main_contents{
+            width: 850px;
+            float: right;
+          
+            margin-top: 25px;
+        }
+        #main_contents h3{
+            font-size: 22px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #cccccc;
+
+        }  
+        #main_contents p{
+            margin-top: 30px;
+            line-height: 180%;
+            
+        }
+        #main_contents #figure{
+            margin-top: 30px;
+           text-align: center;
+            
+        }
+        #main_contents li{
+            padding: 5px;
+        }
+        footer{
+            width: 100%;
+            height: 140px;
+            margin-top: 30px;
+            background-color: #2c2a29;
+        }
+        #footer_box{
+            width: 1140px;
+            height: 120px;
+            margin: 0 auto;
+           
+            
+}
+#footer_logo{
+    float: left;
+    margin: 40px 30px 0 0;
+    color: white;
+  
+}
+#address{
+float: right;
+margin: 50px 30px 0 0;
+color: rgb(129, 129, 129);
+
+
+}
+#ul{
+            width: 600px;
+        
+            padding: 30px;
+            border: solid 1px #525252;
+            border-radius: 10px;
+            background-color: #eaeaea;
+            text-align: center;
+            margin-left: 120px;
+           
+        }
+        #li{
+            list-style-type: none;
+            display: inline;
+            margin-left: 20px;}
+
+            a{margin-left: 50;}
+        a:link{
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            text-align:center;
+            display:inline-block;
+        }
+        a:visited{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(17, 92, 26);
+            text-decoration: none;
+        }
+        
+
+        .bold3{
+            font-size: 70px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+        }
+        .bold2{
+            font-size: 18px;
+            font-weight: 700px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #div1{
+            margin-left: 190px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="./img/www.mp4" type="video/mp4"></video>
+       
+    <header>
+        <div id="logo">
+            <a href="./index.html"><img src="./img/로고2.png" width="80px"></a>
+        </div>
+        <nav id="menus">
+          
+            <ul id="main_menu">
+                <li><a class="a1" href="./A1.html">양육경험담</a></li>
+                <li><a class="a1" href="./A2.html">용품후기</a></li>
+                <li><a class="a1" href="./A3.html">물생활용어</a></li>
+                <li><a class="a1" href="./A4.html">필수템추천</a></li>
+                <li><a class="a1" href="./A5.html">물생활사이트</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="contents">
+<div id="div1"><p class="bold3">슬기로운 물생활</p><br><br>
+<p class="bold2">내 어항에 물고기가 입주하는 순간부터 시작되는 물생활! </p>
+<p class="bold2"> 힐링인줄 알았지만 실상은 고난뿐인 물린이들을 구원해줄 물생활 3년차의 경험담</p></div>
+
+
+</section>
+<div class="clear"></div>
+<footer>
+    <div id="footer_box">
+        <div id="footer_logo">
+        </div>
+    <ul id="address">
+        <li>경기도 광명시 모모동 5454번지 우)54545</li>
+        <li>TEL:515-2151-2115 Email:dfdfm@gmail.com</li>
+        <li>COPYRIGHT (c) 슬기로운 물생활 ALL RIGHTS RESERVED</li>
+    </ul>
+</div>
+</footer>
+</body>
+</html>
